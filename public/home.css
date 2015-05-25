@@ -1,0 +1,29 @@
+body {
+  /* Use a "Matrix"-style color scheme. */
+  color: black;
+
+  font-family: "Open Sans";
+  font-size: 1.5em;
+  text-align: center;
+
+
+  background: #fcfcfc; /* Old browsers */
+  background: -moz-linear-gradient(left,  #fcfcfc 3%, #64e0d2 73%, #8bddd4 100%, #00e2c8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(3%,#fcfcfc), color-stop(73%,#64e0d2), color-stop(100%,#8bddd4), color-stop(100%,#00e2c8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #fcfcfc 3%,#64e0d2 73%,#8bddd4 100%,#00e2c8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #fcfcfc 3%,#64e0d2 73%,#8bddd4 100%,#00e2c8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #fcfcfc 3%,#64e0d2 73%,#8bddd4 100%,#00e2c8 100%); /* IE10+ */
+  background: linear-gradient(to right,  #fcfcfc 3%,#64e0d2 73%,#8bddd4 100%,#00e2c8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#00e2c8',GradientType=1 ); /* IE6-9 */
+
+}
+
+ul {
+
+}
+
+li {
+  /* Add a bit more spacing between list items. */
+  padding: 5px;
+  list-style-type: none;
+}
